@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Unik477/Portfolio-Website/static/css/main.d4b381ba.css",
+    "main.js": "/Unik477/Portfolio-Website/static/js/main.a8f49078.js",
+    "static/js/453.26dd7350.chunk.js": "/Unik477/Portfolio-Website/static/js/453.26dd7350.chunk.js",
+    "static/media/homeimg2.png": "/Unik477/Portfolio-Website/static/media/homeimg2.c9d46d7212d7c45d4d10.png",
+    "static/media/NIKHILResume1.pdf": "/Unik477/Portfolio-Website/static/media/NIKHILResume1.93f6c090e6f7a338e15a.pdf",
+    "static/media/insta.png": "/Unik477/Portfolio-Website/static/media/insta.69c87304520e8660d982.png",
+    "static/media/linkedin.png": "/Unik477/Portfolio-Website/static/media/linkedin.bcf754e260fc62f6b3a0.png",
+    "static/media/slick.svg": "/Unik477/Portfolio-Website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Unik477/Portfolio-Website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Unik477/Portfolio-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Unik477/Portfolio-Website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Unik477/Portfolio-Website/index.html",
+    "main.d4b381ba.css.map": "/Unik477/Portfolio-Website/static/css/main.d4b381ba.css.map",
+    "main.a8f49078.js.map": "/Unik477/Portfolio-Website/static/js/main.a8f49078.js.map",
+    "453.26dd7350.chunk.js.map": "/Unik477/Portfolio-Website/static/js/453.26dd7350.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4b381ba.css",
+    "static/js/main.a8f49078.js"
+  ]
+}
