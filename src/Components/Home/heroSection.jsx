@@ -1,7 +1,7 @@
 
 import homeDesign from "./homeimg2.png"
 import Name from "./name"
-export default function Home(){
+export default function HeroSection(){
     return(
         <div  className='home'>
             <div className="homeName" style={{width:"40%"}}>

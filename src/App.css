@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+body::-webkit-scrollbar {
+  display: none;
+}
 body{
   font-family: "Jost", sans-serif;
   font-weight: 400;
@@ -55,11 +58,20 @@ button:hover {
 
 .unik{
   display: flex;
+  transition: all 0.3s ease;
   align-items: center;
 }
+.unik:hover{
+  cursor: pointer;
+  
+}
 .navbar .unik h4 {
- margin: 0;
+  transition: all 0.3s ease;
+  margin: 0;
   color: white;
+}
+.unik h4:hover{
+  color: #1e8fff;
 }
 .avatar{
   margin-left: 10px;
@@ -82,6 +94,7 @@ button:hover {
 }
 
 .nav-links ul li a {
+  transition: all 0.5s ease;
   color: white;
   text-decoration: none;
   padding-left: 12px;
@@ -92,6 +105,7 @@ button:hover {
 
 .nav-links ul li a:hover{
   /* color: #1e90ff; */
+  cursor: pointer;
   border-radius: 50px;
   background-color: rgba(218, 214, 214, 0.178);
 }
@@ -253,7 +267,7 @@ button:hover {
 
 /* slickDots */
 .slick-dots li button:before {
-  color:white; 
+  color:rgb(255, 255, 255); 
 }
 
 
@@ -466,6 +480,42 @@ button:hover {
 }
 /* About ends */
 
+/* Message starts */
+.outer-message{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #2e384d;
+  color: white;
+}
+.outer-message h2{
+  font-size: 30px;
+ border-bottom:2px solid #1e8fff;
+  
+  
+}
+.send-message{
+  display: inline-block;
+ 
+  
+}
+.send-message form{
+  width: 100%;
+}
+.send-message input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.send-message input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+/* Message ends */
 /* footer starts */
 
 
