@@ -15,7 +15,6 @@ export default function Portfolio() {
     autoplay: true,
     autoplaySpeed: 2500,
     focusOnSelect: true,
-    dotsClass: "slick-dots",
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,

@@ -266,13 +266,20 @@ button:hover {
 /* portfolio ends */
 
 /* slickDots */
-.slick-dots li button:before {
-  color:rgb(255, 255, 255); 
+
+/* Center the dots */
+
+.slick-dots, .slick-next, .slick-prev {
+   position: relative;
 }
 
 
+.slick-dots li button:before {
+  color: rgb(255, 255, 255) !important;
+}
+
 .slick-dots li.slick-active button:before {
-  color:#1e8fff; 
+  color: #1e8fff !important;
 }
 
 
