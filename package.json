@@ -1,4 +1,4 @@
-{
+{"homepage": "https://Unik477.github.io/Portfolio",
   "name": "portfolioweb",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
@@ -863,7 +863,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
