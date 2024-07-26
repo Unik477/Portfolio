@@ -268,8 +268,10 @@ button:hover {
 /* slickDots */
 
 /* Center the dots */
-
-.slick-dots, .slick-next, .slick-prev {
+.slick-dots{
+  position: relative !important;
+}
+.slick-next, .slick-prev {
    position: relative;
 }
 
@@ -523,6 +525,60 @@ button:hover {
   box-sizing: border-box;
 }
 /* Message ends */
+
+/* My Work start */
+.work-card{
+  transition: all 2000ms ease;
+  animation: enter 200ms ease-in;
+  color: white;
+ display: flex;
+  border: 2px solid #23272f;
+  height: 45vh;
+  margin: 10px 0px;
+  background-color: #2e384d;
+}
+.work-card:hover{
+  border: 2px solid #1e8fff;
+}
+.work-card-info{
+  display:flex ;
+}
+.work-card-info img{
+  width: 600px;
+  height: 45vh;
+  display:flex ;
+}
+.work-card-info-text{
+  padding: 20px;
+}
+.work-source-button {
+  display: flex;
+  align-items:end;
+ justify-content: end;
+  
+}
+
+
+.work-section h1{
+  transition: all 1000ms ease;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.work-section h1:hover{
+  cursor: pointer;
+  background-color: #1e8fff;
+}
+.work-list{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  
+}
+/* Blog ends */
+
+
 /* footer starts */
 
 

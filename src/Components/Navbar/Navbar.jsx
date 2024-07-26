@@ -12,7 +12,7 @@ return(
         <div className="nav-links">
        <ul>
             {/* <li><a onClick={()=>navigate("/")}>Home</a></li> */}
-            <li><a onClick={()=>navigate("/")}>Blogs</a></li>
+            <li><a onClick={()=>navigate("/mywork")}>My Work</a></li>
             <li><a onClick={()=>navigate("/message")}>Send a Message</a></li>
         </ul>
         </div>

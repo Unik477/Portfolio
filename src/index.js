@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Message from './Components/Send Message/Message';
 import Navbar from './Components/Navbar/Navbar';
+import WorkList from './Components/Blogs/workList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route exact path="/" element={<App />}/>
         <Route exact path="/message" element={<Message />}/>
+        <Route exact path="/mywork" element={<WorkList />}/>
       </Routes>
     </Router>
     

@@ -116,8 +116,13 @@ export default function Portfolio() {
               <div className="portfolio-cards">
                 <VerticleCard
                   image={"/images/development_icon.png"}
-                  heading={"Development"}
-                  info={["HTML", "CSS", "JavaScript", "MERN Stack", "GitHub"]}
+                  heading={"Web Development"}
+                  info={["HTML", "CSS", "JavaScript", "React", "MongoDb", "GitHub","Bootstrap CSS"]}
+                />
+                <VerticleCard
+                  image={"/images/programming_icon.png"}
+                  heading={"Programming Languages"}
+                  info={["Java", "Python", "C++", "C", "SQL"]}
                 />
                 <VerticleCard
                   image={"/images/illustration.png"}

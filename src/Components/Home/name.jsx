@@ -8,7 +8,7 @@ export default function Name() {
       </h1>
       
       <h2>
-        <TypingAnimation text="a computer science student and an aspiring web developer " speed={100} />
+        <TypingAnimation text="A computer science student and an aspiring web developer " speed={50} />
       </h2>
 
       <div>
