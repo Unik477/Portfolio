@@ -1,0 +1,37 @@
+
+.project-main{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.project-left-division{
+    width: 20%;
+    height: 100%;
+    color: white;
+    border-left: 5px solid #1e8fff;
+}
+.project-left-division ul{
+    font-size: 25px;
+    color: #1e8fff;
+}
+.project-left-division li{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    width: 80%;
+    transition: all 500ms ease;
+}
+.project-left-division li:hover{
+    border-right: 2px solid white;
+    cursor: pointer;
+    color: #3797f7;
+}
+.project-right-division{
+    width: 80%;
+    height: 100%;
+    /* background-color: blue; */
+}

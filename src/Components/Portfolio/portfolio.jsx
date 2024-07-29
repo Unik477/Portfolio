@@ -30,7 +30,7 @@ export default function Portfolio() {
       window.scrollTo({ top: 400, behavior: "smooth" });
     }
     if (skills) {
-      window.scrollTo({ top: 400, behavior: "smooth" });
+      window.scrollTo({ top: 500, behavior: "smooth" });
     }
     if (certifications) {
       window.scrollTo({ top: 800, behavior: "smooth" });
@@ -42,17 +42,26 @@ export default function Portfolio() {
 
   function handleClickState() {
     setPortfolioActive(!portfolioActive);
+    if(certifications===true ) setCertifications(!certifications);
+    if( experience===true) setExperience(!experience);
+    if(skills===true)setSkills(!skills);
   }
 
   const handleSkills = (e) => {
     setSkills(!skills);
+    if(certifications===true ) setCertifications(!certifications);
+    if( experience===true) setExperience(!experience);
   };
   const handleCertifications = (e) => {
     setCertifications(!certifications);
+    if( experience===true) setExperience(!experience);
+    if(skills===true)setSkills(!skills);
   };
 
   const handleExperience = (e) => {
     setExperience(!experience);
+    if(certifications===true ) setCertifications(!certifications);
+    if(skills===true)setSkills(!skills);
   };
 
   return (
