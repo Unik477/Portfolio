@@ -11,6 +11,7 @@ function handleClick(){
 
 function handleChange(e){
     setMessage(e.target.value)
+    e.preventDefault();
 }
 
 
