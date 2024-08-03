@@ -9,6 +9,9 @@
 }
 
 .project-left-division{
+    position: sticky;
+  top: 70px;
+  z-index: 8;
     width: 20%;
     height: 100%;
     color: white;
@@ -33,5 +36,6 @@
 .project-right-division{
     width: 80%;
     height: 100%;
+    margin-right: 10px;
     /* background-color: blue; */
 }

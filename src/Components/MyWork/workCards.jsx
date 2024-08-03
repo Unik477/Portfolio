@@ -9,11 +9,7 @@ export default function WorkCard(props) {
         <div className="work-card-info-text">
           <h2>{props.heading}</h2>
           <p>
-            {props.headingContent} Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Ab neque adipisci saepe, excepturi quia magnam
-            veritatis deleniti quae sapiente quidem nulla! Corrupti
-            reprehenderit neque sapiente porro quaerat deleniti nesciunt
-            perspiciatis inventore. Dolorum neque nisi dolor!
+            {props.headingContent} 
           </p>
           <div className="work-source-button">
             <button>View Source</button>
