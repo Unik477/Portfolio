@@ -11,14 +11,30 @@
     text-align: center;
 }
 .project-page-image {
-    background-color: white;
+    /* background-color: white; */
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; 
+   
+    width: 100%;
   }
   
   .project-page-image img {
    width: 100%;
    height: 100%;
+  }
+
+  .project-image-slider{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    
+  }
+
+  .project-image-slider-slide img{
+      width:600px;
+      height: 350px;
   }

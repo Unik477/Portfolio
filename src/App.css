@@ -531,10 +531,16 @@ button:hover {
 }
 /* Message ends */
 
+@keyframes slideIn{
+  0%{
+   transform:translateX(100%);
+  }
+ }
+
 /* My Work start */
 .work-card{
   transition: all 2000ms ease;
-  animation: enter 200ms ease-in;
+  animation: slideIn 300ms ease-in; 
   color: white;
  display: flex;
   border: 2px solid #23272f;

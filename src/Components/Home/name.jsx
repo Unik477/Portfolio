@@ -4,7 +4,7 @@ export default function Name() {
   return (
     <>
       <h1 className="hi" style={{color:"white"}}>
-        <TypingAnimation text="Hello, I'm Unik " speed={55} />
+        <TypingAnimation text="Hello, I'm Nikhil " speed={55} />
       </h1>
       
       <h2>

@@ -1,7 +1,16 @@
 export const projectData = {
   portfolio: {
-    image: "/images/portfolioImage.png",
+    icon:"/images/portfolioImage.png",
+    image: {
+      img1:"/images/portfolio/portfolioImage1.png",
+      img2:"/images/portfolio/portfolioImage2.png",
+      img3:"/images/portfolio/portfolioImage3.png",
+      img4:"/images/portfolio/portfolioImage4.png",
+      img5:"/images/portfolio/portfolioImage5.png",
+      img6:"/images/portfolio/portfolioImage6.png",
+    },
     name: "Portfolio Website",
+    github:"https://github.com/Unik477/Portfolio",
     about:
       ` <h1>Introduction</h1>
       This project is a personal portfolio website designed to showcase my skills, experience, and certifications as a web developer. It serves as a comprehensive platform to present my professional journey, highlight my technical expertise, and share the projects I’ve passionately worked on.
@@ -13,10 +22,22 @@ export const projectData = {
 <b>CSS3:</b> Style sheet language for designing web pages<br/><br/>
 <b>JavaScript:</b> Programming language for web development<br/><br/>
 <b>Node.js:</b> JavaScript runtime environment<br/><br/>
+<b>Express.js:</b> A back end web application framework for building RESTful APIs with Node.js<br/><br/>
 <b>MongoDB:</b> An unstructured Database`,
   },
   ezRental: {
-    image: "/images/CarRental1.png",
+    icon: "/images/CarRental1.png",
+    github:"https://github.com/Unik477/EzRentals",
+    image: {
+      img1:"/images/ezRental/carRentalImg1.png",
+      img2:"/images/ezRental/carRentalImg2.png",
+      img3:"/images/ezRental/carRentalImg3.png",
+      img4:"/images/ezRental/carRentalImg4.png",
+      img5:"/images/ezRental/carRentalImg5.png",
+      img6:"/images/ezRental/carRentalImg6.png",
+      img7:"/images/ezRental/carRentalImg7.png",
+      img8:"/images/ezRental/carRentalImg8.png",
+    },
     name: "EZ Rentals",
     about:
       ` <h1>Introduction</h1>
@@ -32,8 +53,19 @@ export const projectData = {
 <b>MongoDB:</b> An unstructured Database`,
   },
   sql: {
-    image: "/images/sqlImage.png",
-    name: "SQL",
+    icon: "/images/sqlImage.png",
+    github:"https://github.com/Unik477/wholesaleManagementSystem",
+    image:{
+      img1:"/images/wholesaleSystem/sqlImage1.png",
+      img2:"/images/wholesaleSystem/sqlImage2.png",
+      img3:"/images/wholesaleSystem/sqlImage3.png",
+      img4:"/images/wholesaleSystem/sqlImage4.png",
+      img5:"/images/wholesaleSystem/sqlImage5.png",
+      img6:"/images/wholesaleSystem/sqlImage6.png",
+      img7:"/images/wholesaleSystem/sqlImage7.png",
+      img8:"/images/wholesaleSystem/sqlImage8.png",
+    },
+    name: "WholeSale Management System",
     about:
       ` <h1>Introduction</h1>
      The Wholesale Management System is designed to streamline and enhance the operations of wholesale businesses by efficiently managing inventory, orders, and customer relationships. At the core of this system is a robust SQL database that serves as the backbone for data storage and retrieval. This database architecture enables the system to handle large volumes of transactions, providing real-time insights and facilitating data-driven decision-making.
@@ -44,9 +76,16 @@ export const projectData = {
 <b>MySQL Command Line:</b> mysql is a simple SQL shell with input line editing capabilities. It supports interactive and noninteractive use.<br/><br/>
 `,
   },
-  android: {
-    image: "/images/kotlinImage.png",
-    name: "Portfolio Website",
+  farmeasy: {
+    github:"https://github.com/Unik477/FarmEasy",
+    image:{
+      img1:"/images/farmeasy/farmeasyImage1.png",
+      img2:"/images/farmeasy/farmeasyImage2.png",
+      img3:"/images/farmeasy/farmeasyImage3.png",
+      img4:"/images/farmeasy/farmeasyImage4.png",
+    },
+    icon: "/images/kotlinImage.png",
+    name: "FarmEasy App",
     about:
       ` <h1>Introduction</h1>
       Crop cultivation app (FarmEasy app) is a technology-driven way to make farmers aware about the advancements in the field of agriculture by giving them accurate information about crop cultivation, crop requirements, methods to improve production and introduction to new machineries.

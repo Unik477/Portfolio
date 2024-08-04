@@ -1,5 +1,5 @@
 import {  useEffect, useState } from "react";
-
+import resume from "../Home/NIKHILResume1.pdf"
 export default function About() {
   const [about, setAbout] = useState(false);
   useEffect(() => {
@@ -33,7 +33,7 @@ export default function About() {
               leverage design principles to build visually appealing and
               user-friendly interfaces.
               <br/>
-              {about && <button  className="resumedown">⬇️Resume</button>}
+              {about && <a href={resume} target="_blank" rel="noreferrer"><button  className="resumedown">⬇️Resume</button></a>}
             </p>
             
           </div>

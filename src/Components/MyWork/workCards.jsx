@@ -12,7 +12,7 @@ export default function WorkCard(props) {
             {props.headingContent} 
           </p>
           <div className="work-source-button">
-            <button>View Source</button>
+            <button>View More</button>
           </div>
         </div>
       </div>

@@ -103,13 +103,13 @@ export default function Portfolio() {
                 duration="2020 - Present"
                 skills="Photoshop, Illustrator, Luminar Ai, Coral Draw"
               />
-              <HorizontalCard
+              {/* <HorizontalCard
                 image="/images/digipodium.png"
                 profile="Android App Dev (Internship)"
                 info="Worked with Digipodium as an intern.Learned App Dev using kotlin and Android Studio."
                 duration="Aug' 2021 - Oct' 2021"
                 skills="Kotlin, Android Studio, Firebase, Android Emulator"
-              />
+              /> */}
             </div>
           )}
         </div>
@@ -169,6 +169,7 @@ export default function Portfolio() {
                   duration="December 22, 2021"
                   skills="Local SEO, Creating & optimizing Business profiles, Analyze insights"
                   button="true"
+                  link="https://drive.google.com/file/d/17cNyim7dTrPzNEUa3sfaZQiniivZQPRe/view?usp=drive_link"
                 />
                 <HorizontalCard
                   image="/images/Accenture.png"
@@ -177,6 +178,7 @@ export default function Portfolio() {
                   duration="July 6, 2024"
                   skills="Data Modelling & Analytics, MS Excel"
                   button="true"
+                  link="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_oiXYSo6HnxCF27yhn_1721242384630_completion_certificate.pdf"
                 />
                 <HorizontalCard
                   image="/images/Accenture.png"
@@ -185,6 +187,7 @@ export default function Portfolio() {
                   duration="July 6, 2024"
                   skills="Photoshop, Illustrator, Luminar Ai, Coral Draw"
                   button="true"
+                  link="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/rMSFymzsPCwMGRun8_Accenture%20North%20America_oiXYSo6HnxCF27yhn_1720257018908_completion_certificate.pdf"
                 />
                 <HorizontalCard
                   image="/images/digipodium.png"
@@ -193,6 +196,7 @@ export default function Portfolio() {
                   duration="Aug' 2021 - Oct' 2021"
                   skills="Kotlin, Android Studio, Firebase, Android Emulator"
                   button="true"
+                  link="https://drive.google.com/file/d/1zIF5HOY9h0oOkcU4nKNrpNUai7uKQxBK/view?usp=drive_link"
                 />
               </Slider>
             </div>
