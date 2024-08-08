@@ -1,5 +1,5 @@
 
-import homeDesign from "./homeimg2.png"
+import homeDesign from "./homeimg3.png"
 import Name from "./name"
 export default function HeroSection(){
     return(
