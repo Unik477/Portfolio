@@ -466,7 +466,16 @@ button:hover {
   background-color: white;
   border-radius: 50px;
 }
+@media (max-width: 700px){
+  .about .about-text{
+    height: 300px ;
+    width: 300px ;
+  }
 
+  .about-text p{
+    font-size: 13px !important;
+  }
+}
 .about-text{
   font-family: "Marcellus", serif;
   font-weight: 600;

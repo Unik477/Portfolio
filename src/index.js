@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import { HashRouter as Router,Routes, Route } from "react-router-dom"; // Use HashRouter istead on BrowserRouter to make it work on github properly
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
