@@ -6,6 +6,7 @@ export default function WorkCard(props) {
           src={process.env.PUBLIC_URL + `${props.image}`}
           alt="Something is wrong"
         />
+        </div>
         <div className="work-card-info-text">
           <h2>{props.heading}</h2>
           <p>
@@ -15,8 +16,8 @@ export default function WorkCard(props) {
             <button>View More</button>
           </div>
         </div>
-      </div>
-      <div className="work-card-more-info"></div>
+      
+      
     </div>
   );
 }

@@ -60,7 +60,7 @@ function handleAndroid(){
     <div className="project-main">
       <div className="project-left-division">
         <ul>
-          PROJECTS
+          <h4>PROJECTS</h4>
           <li
             onClick={() => {
               setProjectDetails(false)
@@ -86,7 +86,9 @@ function handleAndroid(){
               setAndroid(true)
               setWeb(false);
               setDatabase(false);
-            }}>Android Development</li>
+            }}
+            >
+              Android Development</li>
         </ul>
       </div>
 

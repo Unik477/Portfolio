@@ -70,6 +70,14 @@ button:hover {
   cursor: pointer;
   
 }
+
+@media (max-width: 700px){
+  .navbar .unik h4,
+  .nav-links ul li a {
+    font-size: 15px;
+  }
+}
+
 .navbar .unik h4 {
   transition: all 0.3s ease;
   margin: 0;
@@ -121,6 +129,15 @@ button:hover {
   font-weight: 700;
   font-size: 40px;
 }
+@media (max-width: 700px){
+  .home{
+    flex-direction: column-reverse;
+  }
+
+  .homeImgDiv, .homeName {
+    width: 100% !important; /* Ensure both divs take full width */
+  }
+}
 .home{
   display: flex;
   margin-bottom: 10px;
@@ -133,8 +150,6 @@ button:hover {
    color: rgb(29, 187, 255);
   padding: 20px;
  
- 
-  
 }
 
 .homeName{
@@ -149,14 +164,16 @@ button:hover {
   align-items: center;
 }
 
-.homeImg {
-  background-color:#2e384d;
-  border-radius: 150px;
-  margin: 31px;
-  width: 300px;
-  height: 300px;
-  object-fit: cover; /* or 'contain', depending on the desired effect */
-}
+
+  .homeImg {
+    background-color:#2e384d;
+    border-radius: 150px;
+    margin: 31px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* or 'contain', depending on the desired effect */
+  }
+
 
 
 
@@ -215,7 +232,6 @@ button:hover {
 .portfolio-cards-slider{
   flex-wrap: wrap;
   transition: all 2000ms ease;
- 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -226,6 +242,12 @@ button:hover {
  
 }
 
+@media (max-width: 700px){
+  .portfolio-cards-slider{
+    padding: 0px 0px;
+    margin: 30px 0px;
+  }
+}
 
 
 .portfolio-contents{
@@ -538,6 +560,23 @@ button:hover {
  }
 
 /* My Work start */
+
+@media (max-width: 700px){
+  .work-card{
+    /* display: block !important; */
+    flex-direction: column;
+    height: min-content !important;
+    width: 100%;
+    
+  }
+  .work-card-info{
+    height: 200px !important;
+  }
+  .work-card-info img{
+    width:100% !important;
+    height: fit-content !important ;
+  }
+}
 .work-card{
   transition: all 2000ms ease;
   animation: slideIn 300ms ease-in; 
@@ -553,14 +592,16 @@ button:hover {
 }
 .work-card-info{
   display:flex ;
+  height: min-content;
 }
 .work-card-info img{
-  width: 600px;
+  width: min-content;
   height: 45vh;
   display:flex ;
 }
 .work-card-info-text{
   padding: 20px;
+  height: min-content;
 }
 .work-source-button {
   display: flex;

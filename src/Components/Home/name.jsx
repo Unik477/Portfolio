@@ -11,7 +11,7 @@ export default function Name() {
         <TypingAnimation text="A computer science student and an aspiring web developer " speed={50} />
       </h2>
 
-      <div>
+      <div className="name-button">
         <a href="https://www.linkedin.com/in/nikhil-upadhyay-a58204222/" target="_blank" rel="noreferrer">
         <button>Hire me</button>
         </a>

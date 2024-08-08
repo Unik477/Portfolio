@@ -1,4 +1,23 @@
 
+
+@media (max-width: 700px){
+.project-main{
+    flex-direction: column;
+}
+
+.project-left-division {
+    background-color: #23272f;
+    /* position:relative !important; */
+    top: 0px !important;
+    width: 100% !important;
+    height: max-content !important;
+} 
+.project-right-division{
+    width: 100% !important;
+}
+}
+
+/* normal view */
 .project-main{
     display: flex;
     position: relative;
