@@ -9,6 +9,7 @@ export default function ProjectDetails() {
   const [web, setWeb] = useState(true);
   const [database, setDatabase] = useState(false);
   const [android, setAndroid] = useState(false);
+  const [graphic, setGraphic] = useState(false);
   const [projectDetails, setProjectDetails]=useState(false);
 
   const[image, setImage]=useState("")
@@ -56,6 +57,15 @@ function handleAndroid(){
   setSliderImages("farmeasy")
   setGithub(projectData.farmeasy.github)
 }
+function handleGraphic(){
+  setGraphic(false);
+  setProjectDetails(true);
+  setImage(projectData.graphic.icon)
+  setName(projectData.graphic.name)
+  setAbout(projectData.graphic.about)
+  setSliderImages("farmeasy")
+  setGithub(projectData.graphic.github)
+}
   return (
     <div className="project-main">
       <div className="project-left-division">
@@ -89,6 +99,15 @@ function handleAndroid(){
             }}
             >
               Android Development</li>
+          {/* <li onClick={() => {
+            setGraphic(true)
+            setProjectDetails(false)
+              setAndroid(false)
+              setWeb(false);
+              setDatabase(false);
+            }}
+            >
+              Graphic Designing</li> */}
         </ul>
       </div>
 
@@ -140,6 +159,18 @@ function handleAndroid(){
               </section>
           </>
         )}
+        {/* {graphic && (
+          <>
+          <section onClick={handleGraphic}>
+
+            <WorkCard
+              image="/images/kotlinImage.png"
+              heading="Graphic Designing"
+              headingContent="Working as a Freelance Graphic Designer, I have designed Logos, Product Mockups, Promotional Social Media content, Advertisements, Promotional Banners, etc. for some Start-ups and Businesses. "
+              />
+              </section>
+          </>
+        )} */}
 
         {projectDetails && <ProjectPage github={github} projectImage={sliderImages} name={name} image={image} about={about}/>}
       </div>

@@ -101,4 +101,43 @@ The main objective of crop information app is to provide all necessary informati
 <b>Kotlin:</b> Kotlin is a programming language that makes coding concise, cross-platform, and fun.<br/><br/>
 <b>FireBase:</b> Firebase is a Backend-as-a-Service (BaaS) app development platform that provides hosted backend services such as a realtime database, cloud storage and authentication.<br/><br/>`,
   },
-};
+  graphic: {
+    github:"https://github.com/Unik477/FarmEasy",
+    image:{
+      img1:"/images/farmeasy/farmeasyImage1.png",
+      img2:"/images/farmeasy/farmeasyImage2.png",
+      img3:"/images/farmeasy/farmeasyImage3.png",
+      img4:"/images/farmeasy/farmeasyImage4.png",
+    },
+    icon: "/images/kotlinImage.png",
+    name: "Graphic Design",
+    about:
+      ` <h1>Introduction</h1>
+    Graphic design is something I do more as a hobby. As a Freelance Graphic Designer, I have collaborated with various start-ups and businesses, offering a wide range of design services. My expertise includes creating compelling logos, product mockups, promotional social media content, advertisements, and banners tailored to meet each client's unique needs. My designs have contributed to enhancing brand identity and promoting products effectively across multiple platforms.
+      <h1>Design Portfolio</h1>
+      <ul> 
+
+      <li><h2>Logo Design:</h2>
+Crafted a unique and memorable logo for a local <strong>Sweet Shop</strong>, emphasizing tradition and quality.</br>
+Designed a simple yet apealing logo for an <strong>Online Cuztomised Items Store</strong>.</br>
+Developed a clean and professional logo for a <strong>Pharmaceutical Startup</strong>, reflecting their commitment to innovation and health.
+</li>
+      
+<li><h2>Product Mockups:</h2>
+
+<strong>T-shirt Designs:</strong> Created custom t-shirt designs that align with brand aesthetics and target audiences.</br>
+<strong>Customized Bottle Mockups:</strong> Designed mockups for customized bottles, showcasing branding and product appeal.
+</li>
+      
+<li><h2>Promotional Content:</h2>
+      Designed banners and advertisements to effectively promote products and services across various platforms.</br>
+Developed engaging <Strong>Social Media Content</strong> to drive customer engagement and brand visibility.
+</li>
+
+    <li><h2>Image Manipulation:</h2>
+
+My work in image manipulation has helped clients achieve polished and professional visuals that align with their branding and marketing goals.These were mostly for friends and family.</li>
+
+       </ul>`
+  },
+  }

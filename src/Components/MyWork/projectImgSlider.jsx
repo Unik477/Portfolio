@@ -8,7 +8,7 @@ export default function ProjectImgSlider(props) {
     draggable: true,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 3500,
     focusOnSelect: true,
     speed: 500,
     slidesToShow: 2,
