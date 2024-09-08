@@ -5,9 +5,18 @@ export default function ProjectPage(props) {
     <div className="project-page">
       <div className="project-header">
         <h1>{props.name}</h1>
+
+        {
+        (props.live)? 
         <a href={props.github} target="_blank" rel="noreferrer">
+         <button>View Live</button>
+         </a>
+          : 
+         <a href={props.github} target="_blank" rel="noreferrer">
          <button>GitHub</button>
          </a>
+         }
+        
       </div>
       <div className="project-page-image">
         <ProjectImgSlider projectImage={props.projectImage} image1="/images/kotlinImage.png"/>

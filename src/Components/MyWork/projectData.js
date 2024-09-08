@@ -10,7 +10,7 @@ export const projectData = {
       img6:"/images/portfolio/portfolioImage6.png",
     },
     name: "Portfolio Website",
-    github:"https://github.com/Unik477/Portfolio",
+    github:"https://unik477.github.io/Portfolio/#/mywork",
     about:
       ` <h1>Introduction</h1>
       This project is a personal portfolio website designed to showcase my skills, experience, and certifications as a web developer. It serves as a comprehensive platform to present my professional journey, highlight my technical expertise, and share the projects I’ve passionately worked on.
@@ -20,11 +20,65 @@ export const projectData = {
       <b>React:</b> JavaScript library for building user interfaces <br/><br/>
 <b>HTML5:</b> Markup language for creating web pages<br/><br/>
 <b>CSS3:</b> Style sheet language for designing web pages<br/><br/>
-<b>JavaScript:</b> Programming language for web development<br/><br/>
-<b>Node.js:</b> JavaScript runtime environment<br/><br/>
-<b>Express.js:</b> A back end web application framework for building RESTful APIs with Node.js<br/><br/>
-<b>MongoDB:</b> An unstructured Database`,
+<b>JavaScript:</b> Programming language for web development<br/><br/>`,
   },
+
+
+  roxstar: {
+    icon:"/images/roxstar/RoxStarGames.png",
+    image: {
+      img1:"/images/roxstar/roxstar01.png",
+      img2:"/images/roxstar/roxstar02.png",
+      img3:"/images/roxstar/roxstar03.png",
+      img4:"/images/roxstar/roxstar04.png",
+      img5:"/images/roxstar/roxstar05.png",
+      img6:"/images/roxstar/roxstar06.png",
+     
+    },
+    name: "RoxStar Games",
+    github:"https://unik477.github.io/RoxStar-Games/",
+    about:
+      ` <h1>Introduction</h1>
+This project is Roxstar Games, a dynamic gaming website designed to deliver an immersive and engaging experience for gaming enthusiasts. As a clone of Rockstar Games, Roxstar Games offers a platform to explore a diverse collection of popular and exciting games, providing detailed information and engaging content to captivate gamers.
+
+<h1>Purpose</h1>
+The primary purpose of Roxstar Games is to create an interactive and user-friendly environment where gamers can discover, learn about, and enjoy a wide range of video games. This website aims to replicate the thrilling experience of Rockstar Games, offering a comprehensive platform to explore game details, updates, and exclusive content, while enhancing the overall gaming community experience.
+
+      <h1>Technologies Used</h1>
+      <b>React:</b> JavaScript library for building user interfaces <br/><br/>
+<b>HTML5:</b> Markup language for creating web pages<br/><br/>
+<b>CSS3:</b> Style sheet language for designing web pages<br/><br/>
+<b>JavaScript:</b> Programming language for web development<br/><br/>`,
+  },
+
+
+  ImageSearch: {
+    icon:"/images/ImageSearch/imageSearchIcon.png",
+    image: {
+      img1:"/images/ImageSearch/imageSearch01.png",
+      img2:"/images/ImageSearch/imageSearch02.png",
+      img3:"/images/ImageSearch/imageSearch03.png",
+      img4:"/images/ImageSearch/imageSearch04.png",
+     
+     
+    },
+    name: "Image Search using Usplash API",
+    github:"https://unik477.github.io/imageSearchAPI/",
+    about:
+      ` <h1>Introduction</h1> 
+      This project is Image Explorer, a powerful and intuitive web application designed to search and display high-quality images from the Unsplash API. 
+      With a sleek and user-friendly interface, Image Explorer allows users to discover stunning photography while providing search suggestions and seamless navigation through next and previous page functionality. 
+      <h1>Purpose</h1> 
+      The primary purpose of Image Explorer is to offer a convenient platform where users can explore a vast collection of high-resolution images based on their search queries. By utilizing the Unsplash API, the website delivers an enjoyable browsing experience, allowing users to search for images, view search suggestions, and effortlessly navigate through pages, making it perfect for photographers, designers, and anyone seeking visual inspiration. 
+      <h1>Technologies Used</h1>
+       <b>React:</b> JavaScript library for building user interfaces <br/><br/> 
+       <b>HTML5:</b> Markup language for creating web pages<br/><br/> 
+       <b>CSS3:</b> Style sheet language for designing web pages<br/><br/> 
+       <b>JavaScript:</b> Programming language for web development<br/><br/> 
+       <b>Unsplash API:</b> Source of free, high-quality images and photo data<br/><br/>`,
+  },
+
+
   ezRental: {
     icon: "/images/CarRental1.png",
     github:"https://github.com/Unik477/EzRentals",
@@ -52,6 +106,8 @@ export const projectData = {
 <b>Node.js:</b> JavaScript runtime environment<br/><br/>
 <b>MongoDB:</b> An unstructured Database`,
   },
+
+
   sql: {
     icon: "/images/sqlImage.png",
     github:"https://github.com/Unik477/wholesaleManagementSystem",
@@ -76,6 +132,8 @@ export const projectData = {
 <b>MySQL Command Line:</b> mysql is a simple SQL shell with input line editing capabilities. It supports interactive and noninteractive use.<br/><br/>
 `,
   },
+
+
   farmeasy: {
     github:"https://github.com/Unik477/FarmEasy",
     image:{
@@ -101,6 +159,8 @@ The main objective of crop information app is to provide all necessary informati
 <b>Kotlin:</b> Kotlin is a programming language that makes coding concise, cross-platform, and fun.<br/><br/>
 <b>FireBase:</b> Firebase is a Backend-as-a-Service (BaaS) app development platform that provides hosted backend services such as a realtime database, cloud storage and authentication.<br/><br/>`,
   },
+
+
   graphic: {
     github:"https://github.com/Unik477/FarmEasy",
     image:{

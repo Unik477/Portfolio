@@ -126,6 +126,11 @@ button:hover {
   border-radius: 50px;
   background-color: rgba(218, 214, 214, 0.178);
 }
+
+.active-link{
+  border-radius: 50px;
+  background-color: rgba(218, 214, 214, 0.178);
+}
 /* navbar ends */
 
 /* Home starts */
@@ -184,7 +189,9 @@ button:hover {
 /* Home ends */
 
 /* Portfolio starts */
-
+.project-header h1{
+  margin-right: 15px;
+}
 .portfolio{
   display: flex;
   text-align: center;

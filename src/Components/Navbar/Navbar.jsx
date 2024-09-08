@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import avatar from "./avatar.png"
 import { useNavigate } from "react-router"
 export default function Navbar(){
@@ -12,8 +13,8 @@ return(
         <div className="nav-links">
        <ul>
             {/* <li><a onClick={()=>navigate("/")}>Home</a></li> */}
-            <li><a onClick={()=>navigate("/mywork")}>Projects</a></li>
-            <li><a onClick={()=>navigate("/message")}>Message</a></li>
+            <li><NavLink className={({ isActive }) => (isActive ? 'active-link' : '')} to="/mywork">Projects</NavLink></li>
+            <li><NavLink className={({ isActive }) => (isActive ? 'active-link' : '')} to="/message">Message</NavLink></li>
         </ul>
         </div>
     </div>

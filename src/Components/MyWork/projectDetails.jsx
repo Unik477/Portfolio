@@ -17,10 +17,12 @@ export default function ProjectDetails() {
   const[about, setAbout]=useState("")
   const[sliderImages, setSliderImages]=useState("portfolio")
   const[github,setGithub]=useState("/")
- 
+  const[live,setlive]=useState(false)
+  
   function handlePortfolio(){
     console.log("clicked  ")
     setWeb(false);
+    setlive(true)
     setProjectDetails(true);
     setImage(projectData.portfolio.image.icon)
     setName(projectData.portfolio.name)
@@ -39,6 +41,7 @@ export default function ProjectDetails() {
     setGithub(projectData.ezRental.github)
 
 }
+
 function handleSql(){
   setDatabase(false);
   setProjectDetails(true);
@@ -57,14 +60,27 @@ function handleAndroid(){
   setSliderImages("farmeasy")
   setGithub(projectData.farmeasy.github)
 }
-function handleGraphic(){
+function handleRoxstar(){
   setGraphic(false);
+  setWeb(false);
+  setlive(true)
   setProjectDetails(true);
-  setImage(projectData.graphic.icon)
-  setName(projectData.graphic.name)
-  setAbout(projectData.graphic.about)
-  setSliderImages("farmeasy")
-  setGithub(projectData.graphic.github)
+  setImage(projectData.roxstar.icon)
+  setName(projectData.roxstar.name)
+  setAbout(projectData.roxstar.about)
+  setSliderImages("roxstar")
+  setGithub(projectData.roxstar.github)
+}
+function handleImageSearch(){
+  setGraphic(false);
+  setWeb(false);
+  setlive(true)
+  setProjectDetails(true);
+  setImage(projectData.ImageSearch.icon)
+  setName(projectData.ImageSearch.name)
+  setAbout(projectData.ImageSearch.about)
+  setSliderImages("ImageSearch")
+  setGithub(projectData.ImageSearch.github)
 }
   return (
     <div className="project-main">
@@ -114,14 +130,6 @@ function handleGraphic(){
       <div className="project-right-division">
         {web && (
           <>
-          <section onClick={handlePortfolio}>
-
-            <WorkCard
-              image="/images/portfolioImage.png"
-              heading="Portfolio Website:"
-              headingContent="This project is a personal portfolio website designed to showcase my skills, experience, and certifications as a web developer. It serves as a comprehensive platform to present my professional journey, highlight my technical expertise, and share the projects I’ve passionately worked on."
-            />
-          </section>
 
           <section onClick={handleCarRental}>
 
@@ -131,6 +139,30 @@ function handleGraphic(){
               headingContent="The Car Rental System is a modern web application developed using the MERN stack, which comprises MongoDB, Express.js, React, and Node.js. "
               />
               </section>
+          <section onClick={handleRoxstar}>
+
+            <WorkCard
+              image="/images/roxstar/RoxStarGames.png"
+              heading="Gaming Website"
+              headingContent="The Car Rental System is a modern web application developed using the MERN stack, which comprises MongoDB, Express.js, React, and Node.js. "
+              />
+              </section>
+          <section onClick={handleImageSearch}>
+
+            <WorkCard
+              image="/images/ImageSearch/imageSearchIcon.png"
+              heading="Image Search using Usplash API"
+              headingContent="This project is Image Explorer, a powerful and intuitive web application designed to search and display high-quality images from the Unsplash API."
+              />
+              </section>
+          <section onClick={handlePortfolio}>
+
+            <WorkCard
+              image="/images/portfolioImage.png"
+              heading="Portfolio Website:"
+              headingContent="This project is a personal portfolio website designed to showcase my skills, experience, and certifications as a web developer. It serves as a comprehensive platform to present my professional journey, highlight my technical expertise, and share the projects I’ve passionately worked on."
+            />
+          </section>
           </>
         )}
 
@@ -172,7 +204,7 @@ function handleGraphic(){
           </>
         )} */}
 
-        {projectDetails && <ProjectPage github={github} projectImage={sliderImages} name={name} image={image} about={about}/>}
+        {projectDetails && <ProjectPage live={live} github={github} projectImage={sliderImages} name={name} image={image} about={about}/>}
       </div>
     </div>
   );
