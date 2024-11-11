@@ -489,7 +489,7 @@ button:hover {
 }
 .about-text{
   font-family: "Marcellus", serif;
-  font-weight: 600;
+  font-weight: 700;
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
@@ -523,9 +523,9 @@ button:hover {
 
 .about-text p{
   align-self: center;
-  padding: 35px 34px 37px;
+  padding: 23px 34px 37px;
   color: #1e8fff;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .about p button.resumedown{
