@@ -175,6 +175,24 @@ export default function Portfolio() {
             <div>
               <Slider className="portfolio-cards-slider" {...settings}>
                 <HorizontalCard
+                  image="/images/samsung.png"
+                  profile="Coding & Programming"
+                  info="Earned for completing C&P Crouse by SAMSUNG INNOVATION CAMPUS."
+                  duration="Aug' 2024 - Sep' 2024"
+                  skills="Python, JupyterNotebook, Data Analysis"
+                  button="true"
+                  link="https://drive.google.com/file/d/1vdUR_eE4jo8jIP3ppynfRd_kyF5RbL-A/view?usp=sharing"
+                />
+                  <HorizontalCard
+                    image="/images/Accenture.png"
+                    profile="Data Analytics"
+                    info="Completed a simulation focused on advising a social media client as a Data Analyst at Accenture"
+                    duration="July 6, 2024"
+                    skills="Data Modelling & Analytics, MS Excel"
+                    button="true"
+                    link="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_oiXYSo6HnxCF27yhn_1721242384630_completion_certificate.pdf"
+                  />
+                <HorizontalCard
                   image="/images/GoogleBusiness.png"
                   profile="Google My Business"
                   info="Earned an Achievement to create listings that will stand out when customers search online."
@@ -182,15 +200,6 @@ export default function Portfolio() {
                   skills="Local SEO, Creating & optimizing Business profiles, Analyze insights"
                   button="true"
                   link="https://drive.google.com/file/d/17cNyim7dTrPzNEUa3sfaZQiniivZQPRe/view?usp=drive_link"
-                />
-                <HorizontalCard
-                  image="/images/Accenture.png"
-                  profile="Data Analytics"
-                  info="Completed a simulation focused on advising a social media client as a Data Analyst at Accenture"
-                  duration="July 6, 2024"
-                  skills="Data Modelling & Analytics, MS Excel"
-                  button="true"
-                  link="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_oiXYSo6HnxCF27yhn_1721242384630_completion_certificate.pdf"
                 />
                 <HorizontalCard
                   image="/images/Accenture.png"
@@ -209,15 +218,6 @@ export default function Portfolio() {
                   skills="Kotlin, Android Studio, Firebase, Android Emulator"
                   button="true"
                   link="https://drive.google.com/file/d/1zIF5HOY9h0oOkcU4nKNrpNUai7uKQxBK/view?usp=drive_link"
-                />
-                <HorizontalCard
-                  image="/images/samsung.png"
-                  profile="Coding & Programming"
-                  info="Earned for completing C&P Crouse by SAMSUNG INNOVATION CAMPUS."
-                  duration="Aug' 2024 - Sep' 2024"
-                  skills="Python, JupyterNotebook, Data Analysis"
-                  button="true"
-                  link="https://drive.google.com/file/d/1vdUR_eE4jo8jIP3ppynfRd_kyF5RbL-A/view?usp=sharing"
                 />
               </Slider>
             </div>
