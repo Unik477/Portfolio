@@ -210,6 +210,15 @@ export default function Portfolio() {
                   button="true"
                   link="https://drive.google.com/file/d/1zIF5HOY9h0oOkcU4nKNrpNUai7uKQxBK/view?usp=drive_link"
                 />
+                <HorizontalCard
+                  image="/images/samsung.png"
+                  profile="Coding & Programming"
+                  info="Earned for completing C&P Crouse by SAMSUNG INNOVATION CAMPUS."
+                  duration="Aug' 2024 - Sep' 2024"
+                  skills="Python, JupyterNotebook, Data Analysis"
+                  button="true"
+                  link="https://drive.google.com/file/d/1vdUR_eE4jo8jIP3ppynfRd_kyF5RbL-A/view?usp=sharing"
+                />
               </Slider>
             </div>
           )}

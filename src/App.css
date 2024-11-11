@@ -403,7 +403,9 @@ button:hover {
  animation: enter 500ms ease-in;
 
 }
-
+.horizontal-card h3{
+ font-size: 23px !important;
+}
 .horizontal-card:hover{
   transition: none !important;
   border: 2px solid #1e8fffba;
