@@ -193,6 +193,15 @@ export default function Portfolio() {
                     link="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_oiXYSo6HnxCF27yhn_1721242384630_completion_certificate.pdf"
                   />
                 <HorizontalCard
+                  image="/images/GL_JAVA.png"
+                  profile="Java Programming"
+                  info="Earned for completing Java Programming online course by GREAT LEARNING"
+                  duration="December, 2021"
+                  skills="Core Java, Basic Java Programming"
+                  button="true"
+                  link="https://drive.google.com/file/d/1ywQJ1wmvdIGK1NYegjrgYhkIEK2s7biO/view?usp=sharing"
+                />
+                <HorizontalCard
                   image="/images/GoogleBusiness.png"
                   profile="Google My Business"
                   info="Earned an Achievement to create listings that will stand out when customers search online."
