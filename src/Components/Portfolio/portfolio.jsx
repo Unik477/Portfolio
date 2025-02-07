@@ -13,7 +13,7 @@ export default function Portfolio() {
     draggable: true,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 6500,
     focusOnSelect: true,
     speed: 500,
     slidesToShow: 3,
@@ -25,11 +25,10 @@ export default function Portfolio() {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
-        }
-      }
-      
-    ]
+          dots: true,
+        },
+      },
+    ],
   };
 
   const [portfolioActive, setPortfolioActive] = useState(false);
@@ -54,26 +53,26 @@ export default function Portfolio() {
 
   function handleClickState() {
     setPortfolioActive(!portfolioActive);
-    if(certifications===true ) setCertifications(!certifications);
-    if( experience===true) setExperience(!experience);
-    if(skills===true)setSkills(!skills);
+    if (certifications === true) setCertifications(!certifications);
+    if (experience === true) setExperience(!experience);
+    if (skills === true) setSkills(!skills);
   }
 
   const handleSkills = (e) => {
     setSkills(!skills);
-    if(certifications===true ) setCertifications(!certifications);
-    if( experience===true) setExperience(!experience);
+    if (certifications === true) setCertifications(!certifications);
+    if (experience === true) setExperience(!experience);
   };
   const handleCertifications = (e) => {
     setCertifications(!certifications);
-    if( experience===true) setExperience(!experience);
-    if(skills===true)setSkills(!skills);
+    if (experience === true) setExperience(!experience);
+    if (skills === true) setSkills(!skills);
   };
 
   const handleExperience = (e) => {
     setExperience(!experience);
-    if(certifications===true ) setCertifications(!certifications);
-    if(skills===true)setSkills(!skills);
+    if (certifications === true) setCertifications(!certifications);
+    if (skills === true) setSkills(!skills);
   };
 
   return (
@@ -103,15 +102,15 @@ export default function Portfolio() {
             <div className="portfolio-cards">
               <HorizontalCard
                 image="/images/techM.png"
-                profile="Network Engineer"
-                info="Worked as a network engineer for NETGEAR at Tech-Mahindra."
+                profile="Network Technical Support"
+                info="Worked as a Technical Support Associate for NETGEAR at Tech-Mahindra."
                 duration="Aug' 2022 - Jan' 2023"
                 skills="Network Configuration, Netwrok management, Network Protocols"
               />
               <HorizontalCard
                 image="/images/freelance.png"
                 profile="Graphic Designer (Freelance)"
-                info="Working as a Freelance Graphic Designer.I design Logos and Promotional Brand designs."
+                info="I design Logos and Promotional Brand designs."
                 duration="2020 - Present"
                 skills="Photoshop, Illustrator, Luminar Ai, Coral Draw"
               />
@@ -138,7 +137,14 @@ export default function Portfolio() {
                 <VerticleCard
                   image={"/images/development_icon.png"}
                   heading={"Web Development"}
-                  info={["HTML", "CSS", "JavaScript", "React", "MongoDb", "GitHub","Bootstrap CSS"]}
+                  info={[
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "React.JS",
+                    "Spring Boot",
+                    "GitHub"
+                  ]}
                 />
                 <VerticleCard
                   image={"/images/programming_icon.png"}
@@ -146,13 +152,12 @@ export default function Portfolio() {
                   info={["Java", "Python", "C++", "C", "SQL"]}
                 />
                 <VerticleCard
-                  image={"/images/illustration.png"}
-                  heading={"OS & Networking"}
+                  image={"/images/Cloud.png"}
+                  heading={"Cloud & Networking"}
                   info={[
                     "Network Protocols",
-                    "Network Configuration and Management",
-                    "Virtual machine setup and management (VMware)",
-                    "Linux/Unix OS",
+                    "AWS Cloud Compute Services",
+                    "configuring and managing network devices like routers, switches, firewalls, and A.P.",
                   ]}
                 />
                 <VerticleCard
@@ -175,6 +180,15 @@ export default function Portfolio() {
             <div>
               <Slider className="portfolio-cards-slider" {...settings}>
                 <HorizontalCard
+                  image="/images/AWS.png"
+                  profile="AWS Cloud"
+                  info="Earned for completing AWS Cloud Technical Essentials Course by AWS on Coursera."
+                  duration="January 31, 2025"
+                  skills=" AWS IAM, EC2, Lambda, ECS, AWS VPC, Amazon RDS,DynamoDB, S3."
+                  button="true"
+                  link="https://www.coursera.org/account/accomplishments/verify/50UYPH0WNA9S"
+                />
+                <HorizontalCard
                   image="/images/samsung.png"
                   profile="Coding & Programming"
                   info="Earned for completing C&P Crouse by SAMSUNG INNOVATION CAMPUS."
@@ -183,15 +197,15 @@ export default function Portfolio() {
                   button="true"
                   link="https://drive.google.com/file/d/1vdUR_eE4jo8jIP3ppynfRd_kyF5RbL-A/view?usp=sharing"
                 />
-                  <HorizontalCard
-                    image="/images/Accenture.png"
-                    profile="Data Analytics"
-                    info="Completed a simulation focused on advising a social media client as a Data Analyst at Accenture"
-                    duration="July 6, 2024"
-                    skills="Data Modelling & Analytics, MS Excel"
-                    button="true"
-                    link="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_oiXYSo6HnxCF27yhn_1721242384630_completion_certificate.pdf"
-                  />
+                <HorizontalCard
+                  image="/images/Accenture.png"
+                  profile="Data Analytics"
+                  info="Completed a simulation focused on advising a social media client as a Data Analyst at Accenture"
+                  duration="July 6, 2024"
+                  skills="Data Modelling & Analytics, MS Excel"
+                  button="true"
+                  link="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_oiXYSo6HnxCF27yhn_1721242384630_completion_certificate.pdf"
+                />
                 <HorizontalCard
                   image="/images/GL_JAVA.png"
                   profile="Java Programming"
@@ -210,7 +224,7 @@ export default function Portfolio() {
                   button="true"
                   link="https://drive.google.com/file/d/17cNyim7dTrPzNEUa3sfaZQiniivZQPRe/view?usp=drive_link"
                 />
-                <HorizontalCard
+                {/* <HorizontalCard
                   image="/images/Accenture.png"
                   profile="Strategy Consulting"
                   info="Certification in Strategy Consulting Job Simulation"
@@ -218,7 +232,7 @@ export default function Portfolio() {
                   skills="Photoshop, Illustrator, Luminar Ai, Coral Draw"
                   button="true"
                   link="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/rMSFymzsPCwMGRun8_Accenture%20North%20America_oiXYSo6HnxCF27yhn_1720257018908_completion_certificate.pdf"
-                />
+                /> */}
                 <HorizontalCard
                   image="/images/digipodium.png"
                   profile="Android App Dev"
