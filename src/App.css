@@ -394,7 +394,8 @@ button:hover {
   align-items: center;
   justify-content: center;
   /* text-align: center; */
-  height: min-content;
+  /* height: min-content; */
+  height: 300px;
   width: 350px;
   padding:  10px 25px;
   border: 2px solid #2e384d ;

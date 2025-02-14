@@ -198,6 +198,24 @@ export default function Portfolio() {
                   link="https://drive.google.com/file/d/1vdUR_eE4jo8jIP3ppynfRd_kyF5RbL-A/view?usp=sharing"
                 />
                 <HorizontalCard
+                  image="/images/udemy.jpg"
+                  profile="Git & Github Basics"
+                  info="Earned for completing Basic Git and Github-Essentials course on Udemy."
+                  duration="13 Feb 2025"
+                  skills="Git, Github "
+                  button="true"
+                  link="https://www.udemy.com/certificate/UC-52ff1d7e-c4c5-4aa3-80cb-d4a62faa82de/"
+                />
+                <HorizontalCard
+                  image="/images/udemy.jpg"
+                  profile="DevOps, CI/CD Basics"
+                  info="Earned for completing DevOps, CI/CD Basics course on Udemy."
+                  duration="14 Feb 2025"
+                  skills="CI/CD pipelines, devOps"
+                  button="true"
+                  link="https://www.udemy.com/certificate/UC-13192898-ca56-41ac-9196-4d6edcbc93ce/"
+                />       
+                <HorizontalCard
                   image="/images/Accenture.png"
                   profile="Data Analytics"
                   info="Completed a simulation focused on advising a social media client as a Data Analyst at Accenture"
