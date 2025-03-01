@@ -10,17 +10,21 @@ export const projectData = {
       img6:"/images/portfolio/portfolioImage6.png",
     },
     name: "Portfolio Website",
-    github:"https://unik477.github.io/Portfolio/#/mywork",
+    github:"http://unik-portfolio-frontend.s3-website.ap-south-1.amazonaws.com",
     about:
       ` <h1>Introduction</h1>
-      This project is a personal portfolio website designed to showcase my skills, experience, and certifications as a web developer. It serves as a comprehensive platform to present my professional journey, highlight my technical expertise, and share the projects I’ve passionately worked on.
+      This project is a personal portfolio website designed to showcase my skills, experience, projects, and certifications. The frontend is built using React for a dynamic, responsive user interface, while the backend is powered by Spring Boot to handle API requests and manage server-side logic. The data is stored and managed using MySQL, providing a robust database solution.
       <h1>Purpose</h1>
       The primary purpose of this portfolio is to provide a detailed and organized presentation of my work, allowing potential employers, collaborators, and clients to easily explore my capabilities. It is a testament to my commitment to continuous learning and my enthusiasm for web development.
       <h1>Technologies Used</h1>
-      <b>React:</b> JavaScript library for building user interfaces <br/><br/>
+<b>React:</b> JavaScript library for building user interfaces <br/><br/>
 <b>HTML5:</b> Markup language for creating web pages<br/><br/>
 <b>CSS3:</b> Style sheet language for designing web pages<br/><br/>
-<b>JavaScript:</b> Programming language for web development<br/><br/>`,
+<b>Spring Boot:</b> Framework for building Java-based backend applications with ease and speed<br/><br/>
+<b>MySQL:</b> Relational database management system for storing and managing data<br/><br/>
+<b>Hosted On:</b> Amazon Web Services- EC2 (for SpringBoot Backend), S3 (for React Frontend), RDS (for MySQL DB)<br/><br/>
+
+`,
   },
 
 
