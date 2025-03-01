@@ -1,5 +1,5 @@
 import TypingAnimation from "./typingAnimation";
-import resume from "./NIKHILResume1.pdf"
+import resume from "./Nikhil_Upadhyay_Resume.pdf"
 export default function Name() {
   return (
     <>

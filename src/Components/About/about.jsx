@@ -1,5 +1,5 @@
 import {  useEffect, useState } from "react";
-import resume from "../Home/NIKHILResume1.pdf"
+import resume from "../Home/Nikhil_Upadhyay_Resume.pdf"
 export default function About() {
   const [about, setAbout] = useState(false);
   useEffect(() => {
