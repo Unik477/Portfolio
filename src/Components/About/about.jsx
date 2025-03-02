@@ -20,13 +20,18 @@ export default function About() {
         {about ? (
             <div onClick={e=>e.stopPropagation()} className="about-text">
             <p>
-                Hello! I'm Nikhil,
+                <b>Hello! I'm Nikhil</b>,
                 <br/>
-              Aspiring web developer with a strong foundation in React.
+              {/* Aspiring web developer with a strong foundation in React.
               Currently pursuing my MCA, I bring
               a unique blend of skills from my background in network
               engineering, enhancing my ability to create robust and efficient
-              web apps.
+              web apps. */}
+              A Computer Science Graduate, <br/>
+              currently pursuing my Master’s in Computer Applications. 
+              Strong background in web development, networking, and cloud computing. 
+              Passionate about solving complex problems and contributing to dynamic teams 
+              in a collaborative environment
               <br/>
               <br/>
                Proficient in Adobe Photoshop and Illustrator, I
