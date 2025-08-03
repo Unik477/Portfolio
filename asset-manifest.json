@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.118e7805.css",
-    "main.js": "/static/js/main.b22edc86.js",
+    "main.css": "/static/css/main.8e13d73b.css",
+    "main.js": "/static/js/main.51ea7390.js",
     "static/js/453.d52c36a5.chunk.js": "/static/js/453.d52c36a5.chunk.js",
-    "static/media/avatar.png": "/static/media/avatar.64e9ba1dedeaa39bba40.png",
     "static/media/homeimg3.png": "/static/media/homeimg3.506f5c979d3a95ae5086.png",
     "static/media/Nikhil_Upadhyay_Resume.pdf": "/static/media/Nikhil_Upadhyay_Resume.5855cc23e12f460c76ab.pdf",
+    "static/media/avatar.png": "/static/media/avatar.28bfc494e874aa6aa880.png",
     "static/media/insta.png": "/static/media/insta.69c87304520e8660d982.png",
     "static/media/linkedin.png": "/static/media/linkedin.bcf754e260fc62f6b3a0.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -13,12 +13,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.118e7805.css.map": "/static/css/main.118e7805.css.map",
-    "main.b22edc86.js.map": "/static/js/main.b22edc86.js.map",
+    "main.8e13d73b.css.map": "/static/css/main.8e13d73b.css.map",
+    "main.51ea7390.js.map": "/static/js/main.51ea7390.js.map",
     "453.d52c36a5.chunk.js.map": "/static/js/453.d52c36a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.118e7805.css",
-    "static/js/main.b22edc86.js"
+    "static/css/main.8e13d73b.css",
+    "static/js/main.51ea7390.js"
   ]
 }
