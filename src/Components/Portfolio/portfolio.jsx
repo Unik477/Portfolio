@@ -11,7 +11,7 @@ export default function Portfolio() {
     dots: true,
     infinite: true,
     draggable: true,
-    arrows: false,
+    arrows: true,
     autoplay: true,
     autoplaySpeed: 6500,
     focusOnSelect: true,
@@ -101,18 +101,25 @@ export default function Portfolio() {
           {experience && (
             <div className="portfolio-cards">
               <HorizontalCard
+                image="/images/twinspark.png"
+                profile="Web Developer"
+                info="Working as an Intern Web Developer at TwinSpark Technology."
+                duration="May 2025 - Present"
+                skills="Full Stack Web Development, HTML, CSS, JavaScript, Bootstrap, PHP, Github"
+              />
+                <HorizontalCard
+                  image="/images/freelance.png"
+                  profile="Graphic Designer (Freelancer)"
+                  info="I design Logos and Promotional Brand designs."
+                  duration="2020 - Present"
+                  skills="Photoshop, Illustrator, Coral Draw"
+                />
+              <HorizontalCard
                 image="/images/techM.png"
                 profile="Network Technical Support"
                 info="Worked as a Technical Support Associate for NETGEAR at Tech-Mahindra."
                 duration="Aug' 2022 - Jan' 2023"
                 skills="Network Configuration, Netwrok management, Network Protocols"
-              />
-              <HorizontalCard
-                image="/images/freelance.png"
-                profile="Graphic Designer (Freelance)"
-                info="I design Logos and Promotional Brand designs."
-                duration="2020 - Present"
-                skills="Photoshop, Illustrator, Luminar Ai, Coral Draw"
               />
               {/* <HorizontalCard
                 image="/images/digipodium.png"
@@ -142,6 +149,7 @@ export default function Portfolio() {
                     "CSS",
                     "JavaScript",
                     "React.JS",
+                    "Node.JS",
                     "Spring Boot",
                     "GitHub"
                   ]}
@@ -189,13 +197,31 @@ export default function Portfolio() {
                   link="https://www.coursera.org/account/accomplishments/verify/50UYPH0WNA9S"
                 />
                 <HorizontalCard
+                  image="/images/js.png"
+                  profile="JavaScript"
+                  info="Earned for completing Javascript Course on Udemy."
+                  duration="Feb' 2025 - March 2025"
+                  skills="ES6, Asynchronous JavaScript, Advanced JS concepts."
+                  button="true"
+                  link="https://drive.google.com/file/d/1tgXFQyor1Ewy1lt1NKME4uhYU4PbGUfm/view?usp=sharing"
+                />
+                <HorizontalCard
                   image="/images/samsung.png"
                   profile="Coding & Programming"
-                  info="Earned for completing C&P Crouse by SAMSUNG INNOVATION CAMPUS."
+                  info="Earned for completing C&P Course by SAMSUNG INNOVATION CAMPUS."
                   duration="Aug' 2024 - Sep' 2024"
                   skills="Python, JupyterNotebook, Data Analysis"
                   button="true"
                   link="https://drive.google.com/file/d/1vdUR_eE4jo8jIP3ppynfRd_kyF5RbL-A/view?usp=sharing"
+                />
+                <HorizontalCard
+                  image="/images/SQL.png"
+                  profile="SQL"
+                  info="Earned for completing 15 Days of SQL course on Udemy."
+                  duration="16 June 2025"
+                  skills="PostgreSQL, Relational Database Management "
+                  button="true"
+                  link="https://drive.google.com/file/d/1SoyyfSjMzK8N4FNdC9h1FIZ74T67eByW/view?usp=sharing"
                 />
                 <HorizontalCard
                   image="/images/udemy.jpg"

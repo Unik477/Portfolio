@@ -90,11 +90,13 @@ button:hover {
 .unik h4:hover{
   color: #1e8fff;
 }
-.avatar{
-  margin-left: 10px;
-    height: 50px;
-    width: 50px;
+.avatar {
+    display: block;
+    width: 65px;
+    height: 23px;
+    object-fit: contain;
 }
+
 .nav-links{
   margin-right: 50px;
 }

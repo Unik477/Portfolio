@@ -19,6 +19,18 @@ export default function ProjectDetails() {
   const[github,setGithub]=useState("/")
   const[live,setlive]=useState(false)
   
+  function handleVehicleDetection(){
+    console.log("clicked  ")
+    setWeb(false);
+    setlive(true)
+    setProjectDetails(true);
+    setImage(projectData.vehicledetection.image.icon)
+    setName(projectData.vehicledetection.name)
+    setAbout(projectData.vehicledetection.about)
+    setSliderImages("vehicledetection")
+    setGithub(projectData.vehicledetection.github)
+    
+  }
   function handlePortfolio(){
     console.log("clicked  ")
     setWeb(false);
@@ -131,6 +143,14 @@ function handleImageSearch(){
         {web && (
           <>
 
+          <section onClick={handleVehicleDetection}>
+
+            <WorkCard
+              image="/images/VDicon01.png"
+              heading="Real-Time Vehicle Detection and Monitoring System"
+              headingContent="As my MCA final year project I developed this real-time Vehicle Detection and Monitoring System for my University. "
+              />
+              </section>
           <section onClick={handleCarRental}>
 
             <WorkCard
